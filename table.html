@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title> Side Bar</title> 
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+        <meta name="viewport" content="width=device-width", 
+        initial-scale="1.0">
+        <link rel="stylesheet" href="./css/table.css">
+        <script src="https://kit.fontawesome.com/2b9359f2dd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <label><i class="fa-solid fa-trash-can"></i>Manage Products</label>
+            <label for="menu" class="menu-bar">
+             <i class="fa-thin fa-house"></i>
+            </label>
+        </nav>
+        <div class="side-menu">
+            <br>
+            <a href="index.html"><i class="fa-solid fa-house-blank"></i><span> Home</span></a>
+            <a href="product2.html"><i class="fa-sharp fa-solid fa-basket-shopping"></i><span>Add Products</span></a>
+            <a href="#"><i class="fa-sharp fa-solid fa-square-poll-horizontal"></i><span> Fake Product</span></a>
+            <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i><span> logout</span></a>
+        </div><br> 
+        <br>
+          <div class="table-container"><br>
+            <h1 class="heading">Product Table</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Product Brand</th>
+                        <th>Category</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Product ID">001</td>
+                        <td data-label="Product Name">XYZ</td>
+                        <td data-label="Product Brand">abc</td>
+                        <td data-label="Category">Stationary</td>
+                        <td data-label="#"><a href="#" class="btn">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Product ID">002</td>
+                        <td data-label="Product Name">XYZ</td>
+                        <td data-label="Product Brand">abc</td>
+                        <td data-label="Category">Stationary</td>
+                        <td data-label="#"><a href="#" class="btn">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+      
+    </body>
