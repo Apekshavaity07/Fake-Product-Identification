@@ -11,10 +11,10 @@
     margin-left: 500px;
     padding-bottom: 400px;
     position: relative;
-    width: 560px;
-    height: 700px;
+    width: 600px;
+    height: 1000px;
     background: transparent;
-    border-radius: 28px;
+    border-radius: 30px;
     justify-content: center;
 }
 .form {
@@ -22,7 +22,7 @@
     inset: 2px;
     background: none;
     z-index: 10;
-    padding: 110px 30px;
+    padding: 130px 50px;
     display: flex;
     flex-direction: column;
 }
@@ -45,8 +45,8 @@
 
 .inputBox {
     position: relative;
-    width: 300px;
-    margin-top: 35px;
+    width: 350px;
+    margin-top: 45px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -55,7 +55,7 @@
     width: 100%;
     padding: 20px 10px 10px;
     background: transparent;
-    border: none;
+    border-radius: 5px;
     outline: none;
     color: rgb(0, 0, 0);
     font-size: 1em;
@@ -77,9 +77,9 @@
 
 .inputBox input:valid~span,
 .inputBox input:focus~span {
-    color: #e8f2f2;
+    color: #121df4;
     transform: translateX(0px) translateY(-34px);
-    font-size: 0.75em;
+    font-size: 0.9em;
 }
 
 .inputBox i {
@@ -98,7 +98,7 @@
 
 .inputBox input:valid~i,
 .inputBox input:focus~i {
-    height: 35px;
+    height: 30px;
 }
 
 .a {
@@ -114,9 +114,8 @@
 }
 
 input[type="submit"] {
-    border: none;
-    outline: none;
-    background: transparent;
+    border: 20px;
+    background-color: #000000;
     padding: 11px 25px;
     width: 100px;
     margin: top 10px;
@@ -130,31 +129,17 @@ input[type="submit"] {
 .input{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
-    width: 300px;
-    margin-top: 35px;
+    width: 40px;
+    margin-top: 34px;
 
 }
-input[type="radio"]{
+input[type="select"]{
     border: none;
     outline: none;
     font-family: 'Times New Roman', Times, serif;
-    width: 10px;
-    margin: 10px;
+    width: 120px;
+    margin: 100px;
 }
-.register-button {
-    background-color: transparent;
-    
-    padding: 11px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px 4px;
-    border-radius: 16px;
-    border: 2px solid ;
-    cursor: pointer;
-    width: 225px;
-  }
 nav{
 
     background: #097c96;
@@ -257,17 +242,26 @@ nav .menu-bar{
         font-size: 35px:
     }
 }
-.button {
-    background-color: transparent;
-    
-    padding: 11px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px 4px;
+input[type="submit"] {
+    background-color: #4c8dae;
+    padding:  10px 100px;
+    margin-bottom: 50px;
     border-radius: 16px;
-    border: 2px solid ;
-    cursor: pointer;
-    width: 225px;
-  }
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #349dbdd2;
+    color: #ffffff;
+    border: 2px solid #04020e;
+}
+.input h5{
+    font-size: 16px;
+    padding: 2px;
+}
