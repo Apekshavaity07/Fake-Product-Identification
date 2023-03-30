@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("../images/login-bg4.jpg");
+    background-image: url("../images/home4.jpg");
     background-position: absolute;
     background-size: cover;
    
@@ -22,6 +22,7 @@ body{
     height: 500px;
     background: transparent;
     border-radius: 8px;
+    color: transparent;
     /*overflow: hidden;*/
 }
 .form
@@ -42,7 +43,7 @@ body{
 }
 .form h1
 {
-    color: rgb(0, 0, 0);
+    color: rgb(177, 238, 238);
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.1em;
@@ -64,7 +65,7 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 248, 248);
     font-size: 1em;
     letter-spacing: 0.05em;
     z-index: 10;
@@ -75,14 +76,14 @@ body{
     left: 0;
     padding: 20px 10px 10px;
     font-size: 1em;
-    color:#000000;
+    color:#efebeb;
     pointer-events: none;
     letter-spacing: 0.05em;
     transition: 0.5s;
 }
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span{
-    color: #303232;
+    color: #faffff;
     transform:  translateX(0px) translateY(-34px);
     font-size: 0.75em;
 }
@@ -116,21 +117,21 @@ body{
 .links a :hover,
 .links a:nth-child(2)
 {
-    color: #0c0c0c;
+    color: #298690;
 }
-input[type="submit"]
-{
-    border: none;
-    outline: none;
-    background: transparent;
-    padding: 11px 25px;
-    width: 100px;
-    margin: top 10px;
-    border-radius: 4px;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 20px 10px  ;
-    font-family: 'Times New Roman', Times, serif;
+input[type="submit"] {
+    background-color: transparent;
+    padding:  10px 100px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    text-decoration: none;
     font-size: 20px;
-}
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: #85d2db;
 
+}

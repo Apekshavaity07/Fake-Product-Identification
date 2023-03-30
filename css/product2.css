@@ -111,6 +111,14 @@ nav .menu-bar{
     }
 }
 .box{
-    margin-left: 300px;
-    padding: 250px;
+    margin-left: 85px;
+    padding: 105px;
 }
+.box p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-bottom: 80px;
+    color:black;
+}
+ 
