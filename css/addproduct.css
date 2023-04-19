@@ -17,7 +17,7 @@
     border-radius: 30px;
     justify-content: center;
 }
-.form {
+.form-1 {
     position: absolute;
     inset: 2px;
     background: none;
@@ -25,16 +25,16 @@
     padding: 130px 50px;
     display: flex;
     flex-direction: column;
+
 }
 
 .form-input-box {
-    border: solid;
-    border-radius: 10px;
+    border: transparent00000000000000000000000000000000000000000000000000000000000000;
     margin-bottom: 1.5rem;
-    padding: 0 45px;
+    padding: 20px 20px 20px 20px;
 }
 
-.form h1 {
+.form-1 h1 {
     color: rgb(0, 0, 0);
     font-weight: 300;
     text-align: center;
@@ -45,9 +45,10 @@
 
 .inputBox {
     position: relative;
-    width: 350px;
+    width: 325px;
     margin-top: 45px;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 14px;
 }
 
 .inputBox input {
@@ -131,14 +132,6 @@ input[type="submit"] {
     position: relative;
     width: 40px;
     margin-top: 34px;
-
-}
-input[type="select"]{
-    border: none;
-    outline: none;
-    font-family: 'Times New Roman', Times, serif;
-    width: 120px;
-    margin: 100px;
 }
 nav{
 
@@ -152,11 +145,8 @@ nav{
 nav i{
     color: rgb(200, 188, 172);
     font-size: 29px;
-    margin-right: 29px;
-    
+    margin-right: 29px;   
 }
-
-
 label{
      
     line-height: 70px;
@@ -239,7 +229,7 @@ nav .menu-bar{
         line-height: 80px;
         text-align: center;
         margin-left: 0;
-        font-size: 35px:
+        font-size: 35px;
     }
 }
 input[type="submit"] {
@@ -263,6 +253,25 @@ input[type="submit"]:hover {
     border: 2px solid #04020e;
 }
 .input h5{
-    font-size: 16px;
+    font-size: 17px;
     padding: 2px;
+    margin-left: 15px;
+}
+form {
+    flex-basis: 100%;
+    background-color: #000000;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(8, 3, 165, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+.input select {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 175px; 
+    text-align: center;
+    padding: 2px;
+    font-weight: 100;
+    margin-left: 15px;
 }
