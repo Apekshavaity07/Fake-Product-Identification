@@ -62,7 +62,7 @@ p{
     display: inline-block;
     background: #053533;
     color:#fff;
-    padding: 8px 30px;
+    padding-left:200px;
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
@@ -176,8 +176,8 @@ footer p{
 .small-container-1 swiper{
     width: 100%;
    justify-content: center;
-    min-height: 100vh;
-    /*padding: 60px 0;*/ 
+    min-height: 1200vh;
+    padding: 60px 0; 
     display: flex;
     align-items: center;
     flex-wrap: wrap;
