@@ -9,17 +9,21 @@ body{
     background-image: url("images/home4.jpg");
 }
 .navbar{
-    display: flex;
+    display:flex;
     align-items: center;
     padding: 20px;
+    background-color: #24cba7;
+    margin-top: 10px;
 }
 nav{
     flex: 1;
     text-align: right;
-}
+ }
 nav ul{
     display: inline-block;
-    list-style-type: none;
+    list-style-type:none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 nav ul li{
     display: inline-block;
@@ -27,23 +31,22 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: #190535;
+    color: #072a48c7;
+    font-weight: bold;
 }
 p{
-    color: #190535;
+    color: #0e031e;
 }
 .container{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-   
+    max-width: 2000px;
 }
 .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;   
+    justify-content: space-around; 
+    padding-left: 200px;
+    padding-right: 90px;  
 }
 .col-2{
     flex-basis: 50%;
@@ -59,13 +62,16 @@ p{
     margin: 25px 0;
 }
 .btn{
-    display: inline-block;
+   
     background: #053533;
     color:#fff;
-    padding-left:200px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .btn:hover{
